@@ -110,7 +110,7 @@ body{
     grid-template-columns: 65% 35%;
     align-items: center;
 }
-h2{
+.que{
     text-align: center;
     margin-left: 21%;
     font-family: sans-serif;
@@ -407,6 +407,24 @@ h2{
     font-size: 16px;
     text-align: center;
 }
+.number3{
+    background-color: #edf3ff;
+    color:  #3661B0;
+    width: 7%;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+.number4{
+    background-color: #edf3ff;
+    color:  #3661B0;
+    width: 10%;
+    padding: 2%;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
 .process{
     margin-left: 3%;
 }
@@ -415,4 +433,51 @@ h2{
     font-size: 16px;
     align-items: center;
     margin-top: 3%;
+}
+
+.catagory{
+    margin-left: 7%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+.items{
+    display: grid;
+    grid-template-columns:12.3% 12.3% 12.3% 12.3% 12.3% 12.3% 12.3% 12.3%;
+    margin-left: 7%;
+}
+.categoryImages{
+    width: 90%;
+}
+.product{
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-right: 18%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.product2{
+    border: 1px solid black;
+    border-radius: 5%;
+    margin-right: 18%;
+    display: flex;
+    justify-content: center;
+    padding-top: 14%;
+    padding-bottom: 14%;
+}
+.text{
+    margin-right: 18%;
+    text-align: center;
+    margin-top: 12%;
+    font-family: sans-serif;
+}
+.right-slider3{
+    position: sticky;
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 40px;
+    margin-top: -10%;
+    margin-left: 95.5%;
+    height: 40px;
 }
